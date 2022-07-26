@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Catalogo plantas</title>
+    <i class="bi bi-cart-check"></i>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+    
+
+    
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="buscador.js">
+  
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+  <header class="navbar navbar-white sticky-top bg-white flex-md-nowrap p-0 shadow">
+  <div class="collapse bg-dark" id="navbarHeader">
+    
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-8 col-md-7 py-4">
+          <div id="ctn-icon-search">
+            <i class="fas fa-search" id="icon-search"></i>
+        </div>
+            <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+        </div>
+    
+        <ul id="box-search">
+            <li><a href="Catalogo.html"><i class="fas fa-search"></i>Arbusto Redondo</a></li>
+            <li><a href="Catalogo.html"><i class="fas fa-search"></i>Palmeras</a></li>
+            <li><a href="Catalogo.html"><i class="fas fa-search"></i>Orquidea Cattleya</a></li>
+            <li><a href="Catalogo.html"><i class="fas fa-search"></i>Nenufar Blanco</a></li>
+            <li><a href="Catalogo.html"><i class="fas fa-search"></i>Cactus Blanco Redondo</a></li>
+            <li><a href="Catalogo.html"><i class="fas fa-search"></i>Gerberas</a></li>
+            <li><a href="Catalogo.html"><i class="fas fa-search"></i>Pata de elefante</a></li>
+        </ul>
+
+        <div id="cover-ctn-search"></div>
+    
+          <h4 class="text-white">JBR</h4>
+
+          <div class="container-all" id="move-content">
+
+    
+            <div class="blog-container-cover">
+                <div class="container-info-cover">
+                    <h1>¡Encuentra tu tema interes!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aliquam quis fuga beatae blanditiis assumenda.</p>
+                </div>
+            </div>
+          <div class="container-post">
+
+            <input type="radio" id="Arbusto Redondo" name="categories" value="Arbusto Redondo" checked>
+            <input type="radio" id="Palmeras" name="categories" value="Palmeras">
+            <input type="radio" id="Orquidea Cattleya" name="categories" value="Orquidea Cattleya">
+            <input type="radio" id="Nenufar Blanco" name="categories" value="Nenufar Blanco">
+            <input type="radio" id="Cactus Blanco Redondo" name="categories" value="Cactus Blanco Redondo">
+            <input type="radio" id="Gerberas" name="categories" value="Gerberas">
+            <input type="radio" id="Pata de elefante" name="categories" value="Pata de elefante">
+    
+            <div class="container-category">
+                <label for="Arbusto Redondo">Arbusto Redondo</label>
+                <label for="Palmeras">Palmeras</label>
+                <label for="Orquidea Cattleya">Orquidea Cattleya</label>
+                <label for="Nenufar Blanco">Nenufar Blanco</label>
+                <label for="Cactus Blanco Redondo">Cactus Blanco Redondo</label>
+                <label for="Gerberas">Gerberas</label>
+                <label for="Pata de elefante">Pata de elefante</label>
+            </div>
+          
+        </div>
+        
+      </div>
+    </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-white bg-white shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>Catalogo</strong>
+      </a>
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        <input type="search" class="form-control form-control-dark text-dark bg-white" placeholder="Search..." aria-label="Search">
+      </form>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Catalogo Plantas</h1>
+        <p class="lead text-muted">Nuestro catalogo de plantas cuenta con una gran variedad de plantas para brindarte informacion al igual que tenemos varias a la venta, esto nos ayuda mucho para cuidar el planeta.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../b/imagen/img2.jpg" alt=width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Arbusto Redondo</text>
+              <div class="card-body">
+              <p class="card-text">Los arbustos Redondos para jardín o terraza son una opción perfecta de disfrutar de la naturaleza sin tener que llevar a cabo mucho mantenimiento. Una apuesta ideal para tupir pequeños o grandes espacios de su característico follaje verde que, además, no implica tener que renunciar también a disfrutarlos con flores.
+                <br>
+              Precio: $150.00
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg> <a  class="btn btn-sm btn-outline-white bg-white" href="file:///C:/Users/Acer/Desktop/Nueva%20carpeta%20(2)/b/Compra.html">Comprar</a>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../b/imagen/img3.jpg" alt=width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Palmeras</text></svg>
+
+            <div class="card-body">
+              <p class="card-text"> Las palmeras  forman parte del entorno cotidiano en zonas tropicales y costeras. En general las palmas son plantas siempre verdes, de tallos rectos, sin ramas y  terminan en penachos de hojas grandes de una belleza y majestuosidad impresionante. Tienen un lugar especial en la ornamentación de jardines, edificios y áreas verdes, al tener la característica de ser fácilmente adaptables a diversas condiciones climáticas, espacio e iluminación. 
+                <br>
+                Precio:$100.00
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg><a  class="btn btn-sm btn-outline-white bg-white" href="file:///C:/Users/Acer/Desktop/Nueva%20carpeta%20(2)/b/Compra.html">Comprar</a>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../b/imagen/orquidea.jpg" alt=width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Orquidea Cattleya</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">La orquídea Cattleya es originaria del Caribe y de América Central, se caracteriza por tener flores de gran tamaño y de colores intensos. Tanto es así, que algunas flores pueden alcanzar más de 30 centímetros de diámetro.
+                <br>
+                Ideal para tu jardin & Hogar
+                <br>
+                Precio:$100.00
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg><a  class="btn btn-sm btn-outline-white bg-white" href="file:///C:/Users/Acer/Desktop/Nueva%20carpeta%20(2)/b/Compra.html">Comprar</a>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../b/imagen/nenufar.jpg" alt=width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Nenufar Blanco</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">son plantas ideales para tus estanques, es originaria en las regiones templadas de Europa, tolerando incluso aguas contaminadas. Florece entre junio y septiembre y se recolecta en verano y otoño.
+                <br>
+                precio : $120.00
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg><a  class="btn btn-sm btn-outline-white bg-white" href="file:///C:/Users/Acer/Desktop/Nueva%20carpeta%20(2)/b/Compra.html">Comprar</a>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../b/imagen/cactu.jpg" alt=width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Cactus Blanco Redondo</text></svg>
+            <div class="card-body">
+              <p class="card-text">Plantita ideal para tu hogar siempre y cuando este alejado de los niños
+                <br>
+                Precio: $90.00
+              </p>
+              <br>
+              <br>
+              <br>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg> <a  class="btn btn-sm btn-outline-white bg-white" href="file:///C:/Users/Acer/Desktop/Nueva%20carpeta%20(2)/b/Compra.html">Comprar</a>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../b/imagen/gerbera.jpg" alt=width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Gerberas</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">Esta espectacular planta de interior es una de las favoritas de los amantes de la jardinería y el interiorismo. Las flores de la gerbera, planta originaria de África, son de gran tamaño y muy llamativas, por ello es normal encontrarlas siendo parte tanto de centros florales como de los ramos de boda de las novias más atrevida
+                <br>
+                Precio: $50.00
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg> <a  class="btn btn-sm btn-outline-white bg-white" href="file:///C:/Users/Acer/Desktop/Nueva%20carpeta%20(2)/b/Compra.html">Comprar</a>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../b/imagen/elefante.jpg" alt=width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid sl"ice focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Pata de elefante</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">Es una plantita muy querida por muchos es Originaria de Mexico
+                <br>
+                Precio: $200.00
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg> <a  class="btn btn-sm btn-outline-white bg-white" href="file:///C:/Users/Acer/Desktop/Nueva%20carpeta%20(2)/b/Compra.html">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      
+      <a href="file:///C:/Users/Acer/Desktop/Nueva%20carpeta%20(2)/b/index.html">Regresar</a>
+    </p>
+    <p class="mb-1">Catalogo de Plantas &copy; Jardin Botanico JBR </p>
+    <p class="mb-1">Evelyn De La Rosa &copy; Harold Isaac Avila Mendez </p>
+    </div>
+</footer>
+
+<script src="buscador.js"></script>
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
